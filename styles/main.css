@@ -1,0 +1,59 @@
+.grid {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: 40px auto 75px;
+}
+nav {
+    grid-column: 1/4;
+    grid-row: 1/2
+}
+
+body {
+    background-color: grey;
+}
+.main {
+    grid-column: 2/3;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+.centeredT {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+footer {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    display: flex;
+}
+
+.footerContent {
+    flex: 1;
+    text-align: center;
+}
+
+.loginForm {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    border: black 1px solid;
+    border-radius: 15px;
+    padding: 20px;
+}
+.loginInput {
+    display: flex;
+    flex-direction: column;
+}
+.hidden {
+    display: none;
+}
+
+.loginForm div {
+    margin-top: 15px;
+}
