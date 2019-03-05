@@ -27,7 +27,7 @@
       <nav>
         <ul class="nav justify-content-end bg-light h-100">
           <li class="nav-item">
-            <button type="button" class="btn btn-link">Home</button>
+            <button type="button" id="homeDisplay" class="btn btn-link">Home</button>
           </li>
           <li class="nav-item">
             <button type="button" class="btn btn-link">Support</button>
@@ -40,26 +40,13 @@
         </ul>
       </nav>
 
-      <div class="main m-4">
-        <main class="bg-light p-4 mainText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
-          voluptate repudiandae rem quia culpa dicta aperiam corporis tenetur
-          ipsam cum nisi? Eveniet omnis voluptate ipsam, corporis laboriosam
-          voluptatibus temporibus aut? Impedit tenetur incidunt eos, eum dolores
-          vero accusantium itaque labore quia sunt aut architecto sequi esse.
-          Ducimus, in perspiciatis. Iste fugit numquam voluptate aut mollitia
-          dicta, sit corporis saepe ipsum. Inventore obcaecati esse sunt, quos
-          ea, facere nisi minus harum ratione ullam dolores mollitia
-          necessitatibus ut dignissimos! Illum, ea, libero eius amet officiis
-          ullam perspiciatis provident, ex atque accusamus nihil. Ullam rerum
-          eius iure officiis eaque officia harum, nesciunt nam quasi debitis
-          delectus aperiam rem autem dolorem quidem voluptatum placeat. Esse
-          velit ipsum expedita alias nesciunt dolore. Esse, eos cumque! Ducimus
-          aut nulla provident. A, doloremque voluptate. Cumque architecto
-          reprehenderit quas officiis veniam mollitia iste maiores dolorem natus
-          illum, laudantium praesentium nihil, voluptatem nostrum placeat, ut
-          officia similique provident. Eaque.
-        </main>
+      <main class="main m-4" id="injectHere">
+        <!-- <div class="bg-light p-4 mainText">
+          <button><img src="./images/computerIcon.png" id="computerSupport" alt=""> </button>
+          <button><img src="./images/tabletIcon.png" id="tabletSupport" alt=""></button>
+          <button><img src="./images/phoneIcon.png" id="phoneSupport" alt=""></button>
+        </div>
+        
         <form class="loginForm hidden bg-light" id="logInForm">
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
@@ -75,8 +62,8 @@
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
             <button type="button" class="btn btn-primary" id="logIn">Submit</button>
-          </form>
-      </div>
+          </form> -->
+        </main>
 
       <footer class="bg-light">
         <div class="footerContent">FOOTER</div>
@@ -97,7 +84,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="/scripts/main.js"></script>
+    <script src="./scripts/main.js"></script>
     
   </body>
 </html>

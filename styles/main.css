@@ -57,3 +57,8 @@ footer {
 .loginForm div {
     margin-top: 15px;
 }
+
+main img {
+    height: 200px;
+    width: 200px;
+}
