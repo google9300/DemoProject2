@@ -21,54 +21,39 @@
 
     <title>Document</title>
   </head>
-  <body>
+  <body class="bg-light">
     <div class="grid">
       <!-- START OF GRID -->
       <nav>
-        <ul class="nav justify-content-end bg-light h-100">
+        <ul class="nav justify-content-end bg-primary h-100">
           <li class="nav-item">
-            <button type="button" id="homeDisplay" class="btn btn-link">Home</button>
+            <button type="button" id="homeBtn" class="btn btn-link text-light">
+              Home
+            </button>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn btn-link">Support</button>
+            <button
+              type="button"
+              id="supportBtn"
+              class="btn btn-link text-light"
+            >
+              Support
+            </button>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn btn-link" id="loginBtn">
-              <i class="far fa-user-circle fa-lg" ></i>
+            <button type="button" class="btn btn-link text-light" id="loginBtn">
+              <i class="far fa-user-circle fa-lg"></i>
             </button>
           </li>
         </ul>
       </nav>
 
-      <main class="main m-4" id="injectHere">
-        <!-- <div class="bg-light p-4 mainText">
-          <button><img src="./images/computerIcon.png" id="computerSupport" alt=""> </button>
-          <button><img src="./images/tabletIcon.png" id="tabletSupport" alt=""></button>
-          <button><img src="./images/phoneIcon.png" id="phoneSupport" alt=""></button>
-        </div>
-        
-        <form class="loginForm hidden bg-light" id="logInForm">
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="text" class="form-control" id="userId" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="userPassword" placeholder="Password">
-            </div>
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="button" class="btn btn-primary" id="logIn">Submit</button>
-          </form> -->
-        </main>
+      <main class="main m-4" id="injectHere"></main>
 
-      <footer class="bg-light">
-        <div class="footerContent">FOOTER</div>
-        <div class="footerContent">FOOTER</div>
-        <div class="footerContent">FOOTER</div>
+      <footer class="bg-primary">
+        <div class="footerContent text-light">FOOTER</div>
+        <div class="footerContent text-light">FOOTER</div>
+        <div class="footerContent text-light">FOOTER</div>
       </footer>
       <!-- END OF GRID -->
     </div>
@@ -85,6 +70,5 @@
     ></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./scripts/main.js"></script>
-    
   </body>
 </html>

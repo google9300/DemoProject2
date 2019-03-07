@@ -1,4 +1,37 @@
 {
-  "userName": "admin",
-  "password": "admin"
+  "loginDetails": [
+    { "userName": "admin", "password": "password" },
+    { "userName": "user", "password": "user" }
+  ],
+  "supportForm": [
+    {
+      "computerSupport": [
+        {
+          "LGOP1": "LComputerOption1",
+          "LGOP2": "LComputerOption2",
+          "LGOP3": "LComputerOption3",
+          "LGOP4": "LComputerOption4",
+          "LGOP5": "LComputerOption5",
+          "LGOP6": "LComputerOption6"
+        },
+        {
+          "MDOP1": "MComputerOption1",
+          "MDOP2": "MComputerOption2",
+          "MDOP3": "MComputerOption3",
+          "MDOP4": "MComputerOption4",
+          "MDOP5": "MComputerOption5",
+          "MDOP6": "MComputerOption6"
+        },
+
+        {
+          "SMOP1": "SComputerOption1",
+          "SMOP2": "SComputerOption2",
+          "SMOP3": "SComputerOption3",
+          "SMOP4": "SComputerOption4",
+          "SMOP5": "SComputerOption5",
+          "SMOP6": "SComputerOption6"
+        }
+      ]
+    }
+  ]
 }
