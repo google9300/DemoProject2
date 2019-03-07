@@ -27,7 +27,7 @@ function logIn() {
       swal("Good job!", "You are logged in!", "success");
       $("#injectHere")
         .hide()
-        .load("../Pages/admin.html")
+        .load("../Pages/logged.html")
         .fadeIn(1000);
     } else {
       swal("Wrong Credentials!", "Try Again!", "error");

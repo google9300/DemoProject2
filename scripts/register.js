@@ -15,7 +15,7 @@ $("#registerBtn").click(function() {
   console.log(accountDetails);
   $.ajax({
       type: 'POST',
-      url: 'https://my-json-server.typicode.com/google9300/demoJSON/db',
+      url: 'https://my-json-server.typicode.com/google9300/demoJSON/loginDetails',
       data: accountDetails,
       success: function() {
           console.log("SUCCESS");

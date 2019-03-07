@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("#injectHere")
     .hide()
-    .load("../Pages/register.html")
+    .load("../Pages/home.html")
     .fadeIn(1500);
   loginDisplay();
   displaySupport();
